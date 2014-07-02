@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch=".." />
+
+  <default revision="refs/heads/master"
+           remote="github"/>
+
+  <project path="contrail-web-controller" name="Juniper/contrail-web-controller"></project>
+  <project path="contrail-web-core" name="Juniper/contrail-web-core"></project>
+</manifest>
